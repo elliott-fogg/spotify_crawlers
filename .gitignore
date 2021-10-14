@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### Custom additions below this point ##########################################
+
+# .private files used for credentials
+*.private
+
+# data/ folder used for storing the results of the crawl (which will be large)
+data/
